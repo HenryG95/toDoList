@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#title-container {
+    background-color: lightseagreen;
+    padding: 5px;
+}
+
+#body-container {
+    display: flex;
+    height:fit-content;
+}
+
+.body-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#right-side {
+    width: 75%;
+}
+
+#left-side {
+    width: 25%;
+    background-color: lightblue;
+}
+
