@@ -9,26 +9,44 @@
 
 #title-container {
     background-color: lightseagreen;
-    padding: 5px;
 }
 
 #body-container {
     display: flex;
-    height:fit-content;
+    height:100vh;
 }
 
 .body-div {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #right-side {
-    width: 75%;
+    width: 85%;
 }
 
 #left-side {
-    width: 25%;
+    width: 15%;
     background-color: lightblue;
+    height:100%;
 }
 
+#project-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    cursor:pointer;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hover-color:hover {
+    background: lightskyblue;
+}
