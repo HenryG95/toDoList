@@ -1,7 +1,8 @@
-import { inbox } from "./loader.js";
+import { inbox,newTask,newProject} from "./loader.js";
+import {taskForm, projectForm} from "./forms.js";
 
-inbox.addEventListener("click",() => {
+newTask.addEventListener("click",taskForm);
+newProject.addEventListener("click",projectForm);
+inbox.addEventListener("click", () => {
     console.log("hi");
-});
-
-console.log('working');
+})
